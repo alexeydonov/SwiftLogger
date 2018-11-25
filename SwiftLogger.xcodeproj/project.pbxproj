@@ -15,6 +15,8 @@
 		8A3A9B7421AA71DE00BCE326 /* LogPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B7321AA71DE00BCE326 /* LogPayload.swift */; };
 		8A3A9B7621AA763400BCE326 /* LogstashDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B7521AA763400BCE326 /* LogstashDestination.swift */; };
 		8A3A9B7821AA7A0D00BCE326 /* GELFDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A9B7721AA7A0D00BCE326 /* GELFDestination.swift */; };
+		8A3A9B7C21AA82A900BCE326 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A9B7B21AA82A900BCE326 /* LICENSE */; };
+		8A3A9B7E21AA877600BCE326 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A9B7D21AA877600BCE326 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		8A3A9B7321AA71DE00BCE326 /* LogPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogPayload.swift; sourceTree = "<group>"; };
 		8A3A9B7521AA763400BCE326 /* LogstashDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogstashDestination.swift; sourceTree = "<group>"; };
 		8A3A9B7721AA7A0D00BCE326 /* GELFDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GELFDestination.swift; sourceTree = "<group>"; };
+		8A3A9B7A21AA7EAE00BCE326 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8A3A9B7B21AA82A900BCE326 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8A3A9B7D21AA877600BCE326 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,9 @@
 		8A3A9B5621AA6F9500BCE326 = {
 			isa = PBXGroup;
 			children = (
+				8A3A9B7D21AA877600BCE326 /* .gitignore */,
+				8A3A9B7B21AA82A900BCE326 /* LICENSE */,
+				8A3A9B7A21AA7EAE00BCE326 /* README.md */,
 				8A3A9B6221AA6F9500BCE326 /* SwiftLogger */,
 				8A3A9B6121AA6F9500BCE326 /* Products */,
 			);
@@ -150,6 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3A9B7E21AA877600BCE326 /* .gitignore in Resources */,
+				8A3A9B7C21AA82A900BCE326 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
